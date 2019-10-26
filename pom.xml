@@ -26,7 +26,6 @@
         <url>https://github.com/bsfowlie/bendoku</url>
         <connection>scm:git:https://github.com/bsfowlie/bendoku.git</connection>
     </scm>
-
     <issueManagement>
         <system>Github Issues</system>
         <url>https://github.com/bsfowlie/bendoku/issues</url>
