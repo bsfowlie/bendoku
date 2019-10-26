@@ -27,6 +27,11 @@
         <connection>scm:git:https://github.com/bsfowlie/bendoku.git</connection>
     </scm>
 
+    <issueManagement>
+        <system>Github Issues</system>
+        <url>https://github.com/bsfowlie/bendoku/issues</url>
+    </issueManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
