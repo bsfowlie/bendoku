@@ -32,6 +32,20 @@
         <url>https://github.com/bsfowlie/bendoku/issues</url>
     </issueManagement>
 
+    <developers>
+        <developer>
+            <id>bsfowlie</id>
+            <name>Ben Fowlie</name>
+            <email>bsfowlie@gmail.com</email>
+            <url>https://github.com/bsfowlie/initial</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>America/New_York</timezone>
+        </developer>
+    </developers>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
