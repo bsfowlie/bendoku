@@ -9,4 +9,8 @@ public final class PositionShould implements WithAssertions {
         assertThat(Position.at(1,1)).isNotNull();
 
     }
+    @Test
+    public void have_representation_with_row_and_column() {
+        assertThat(Position.at(0,1)).hasToString("(0, 1)");
+    }
 }
