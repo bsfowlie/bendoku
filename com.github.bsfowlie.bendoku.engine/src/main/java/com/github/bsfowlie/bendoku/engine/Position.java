@@ -1,19 +1,21 @@
 package com.github.bsfowlie.bendoku.engine;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 public final class Position {
 
+    private final transient int row;
+    private final transient int column;
     private final String representation;
 
-    private Position(final String format) {
+    private Position(final int row, final int column, final String format) {
+        this.row = row;
+        this.column = column;
         representation = format;
     }
 
     public static Position at(final int row, final int column) {
-        return new Position("(" + row + ", " + column + ")");
+        return new Position(row, column, "(" + row + ", " + column + ")");
     }
 
     @Override
@@ -22,7 +24,7 @@ public final class Position {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(final Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
@@ -36,4 +38,7 @@ public final class Position {
         return Objects.hashCode(representation);
     }
 
+    public Position offsetBy(final int deltaRow, final int deltaColumn) {
+        return at(row + deltaRow, column + deltaColumn);
+    }
 }
