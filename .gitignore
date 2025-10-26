@@ -29,5 +29,8 @@ replay_pid*
 # Ignore Gradle build output directory
 build/
 
+# Do not ignore the Gradle Wrapper jar file
+!gradle/wrapper/gradle-wrapper.jar
+
 # Ignore IntelliJ pronect directory
 .idea/
