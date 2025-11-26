@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = "bendoku"
-include("app")
+include("app", "engine")
