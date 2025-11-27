@@ -1,6 +1,6 @@
 package com.github.bsfowlie.bendoku.puzzle;
 
-public final class EmptyCell extends Cell {
+final class EmptyCell extends Cell {
 
   @Override
   public boolean isSolved() {
