@@ -7,6 +7,9 @@ repositories {
 }
 
 dependencies {
+    // Use Assertj for assertions
+    testImplementation(libs.assertj.core)
+
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
 
