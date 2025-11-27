@@ -4,8 +4,8 @@ import org.assertj.core.api.WithAssertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("A Cell")
-class CellTest implements WithAssertions {
+@DisplayName("An EmptyCell")
+class EmptyCellTest implements WithAssertions {
 
   @Test
   @DisplayName("should not be solved initially")
