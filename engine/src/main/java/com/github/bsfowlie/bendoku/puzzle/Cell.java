@@ -1,10 +1,7 @@
 package com.github.bsfowlie.bendoku.puzzle;
 
-public class Cell {
+public abstract class Cell {
 
-  boolean isSolved() {
-
-    return false;
-  }
+   public abstract boolean isSolved();
 
 }
