@@ -1,0 +1,25 @@
+package com.github.bsfowlie.bendoku.puzzle;
+
+import org.assertj.core.api.WithAssertions;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+@DisplayName("A GivenCell")
+class GivenCellTest implements WithAssertions {
+
+  @Test
+  @DisplayName("should be solved initially")
+  void shouldBeSolvedInitially() {
+
+    // given
+    Cell cell = new GivenCell(1);
+
+    // when
+    var solved = cell.isSolved();
+
+    // then
+    assertThat(solved).isTrue();
+
+  }
+
+}
