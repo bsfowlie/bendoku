@@ -12,10 +12,10 @@ class EmptyCellTest implements WithAssertions {
   void shouldNotBeSolvedInitially() {
 
     // given
-    Cell cell = new EmptyCell();
+    var cell = new EmptyCell();
 
     // when
-    boolean solved = cell.isSolved();
+    var solved = cell.isSolved();
 
     // then
     assertThat(solved).isFalse();
