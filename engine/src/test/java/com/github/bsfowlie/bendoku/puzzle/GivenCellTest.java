@@ -12,7 +12,7 @@ class GivenCellTest implements WithAssertions {
   void shouldBeSolvedInitially() {
 
     // given
-    Cell cell = new GivenCell(1);
+    var cell = new GivenCell(1);
 
     // when
     var solved = cell.isSolved();
