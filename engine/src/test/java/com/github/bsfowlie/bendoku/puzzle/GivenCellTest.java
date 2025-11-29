@@ -22,4 +22,19 @@ class GivenCellTest implements WithAssertions {
 
   }
 
+  @Test
+  @DisplayName("should have a value")
+  void shouldHaveValue() {
+
+    // given
+    var cell = new GivenCell(1);
+
+    // when
+    var value = cell.value();
+
+    // then
+    assertThat(value).isEqualTo(1);
+
+  }
+
 }
