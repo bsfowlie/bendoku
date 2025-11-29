@@ -22,4 +22,10 @@ final class SolvedCell extends Cell implements Clearable {
     return value;
   }
 
+  @Override
+  public Cell clear() {
+
+    return new EmptyCell();
+  }
+
 }
