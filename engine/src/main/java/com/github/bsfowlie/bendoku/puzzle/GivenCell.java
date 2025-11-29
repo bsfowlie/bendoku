@@ -2,9 +2,12 @@ package com.github.bsfowlie.bendoku.puzzle;
 
 final class GivenCell extends Cell {
 
+  private final int value;
+
   public GivenCell(final int value) {
 
     super();
+    this.value = value;
   }
 
   @Override
@@ -16,7 +19,7 @@ final class GivenCell extends Cell {
   @Override
   public Integer value() {
 
-    return 1;
+    return value;
   }
 
 }
