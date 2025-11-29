@@ -22,4 +22,19 @@ class SolvedCellTest implements WithAssertions {
 
   }
 
+  @Test
+  @DisplayName("should have a value")
+  void shouldHaveValue() {
+
+    // given
+    var cell = new SolvedCell(1);
+
+    // when
+    var value = cell.value();
+
+    // then
+    assertThat(value).isEqualTo(1);
+
+  }
+
 }

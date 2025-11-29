@@ -22,4 +22,19 @@ class EmptyCellTest implements WithAssertions {
 
   }
 
+  @Test
+  @DisplayName("should not have a value")
+  void shouldNotHaveValue() {
+
+    // given
+    var cell = new EmptyCell();
+
+    // when
+    var value = cell.value();
+
+    // then
+    assertThat(value).isNull();
+
+  }
+
 }

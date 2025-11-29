@@ -13,4 +13,10 @@ final class GivenCell extends Cell {
     return true;
   }
 
+  @Override
+  public Integer value() {
+
+    return 1;
+  }
+
 }

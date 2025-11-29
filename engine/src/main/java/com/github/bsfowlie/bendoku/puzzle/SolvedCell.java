@@ -13,4 +13,10 @@ final class SolvedCell extends Cell {
     return true;
   }
 
+  @Override
+  public Integer value() {
+
+    return 1;
+  }
+
 }

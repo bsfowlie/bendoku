@@ -4,4 +4,6 @@ public abstract sealed class Cell permits EmptyCell, GivenCell, SolvedCell {
 
    public abstract boolean isSolved();
 
+   public abstract Integer value();
+
 }

@@ -8,4 +8,10 @@ final class EmptyCell extends Cell {
     return false;
   }
 
+  @Override
+  public Integer value() {
+
+    return null;
+  }
+
 }
