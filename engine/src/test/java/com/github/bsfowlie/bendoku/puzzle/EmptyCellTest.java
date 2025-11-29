@@ -51,4 +51,18 @@ class EmptyCellTest implements WithAssertions {
 
   }
 
+  @Test
+  @DisplayName("can be solved")
+  void canBeSolved() {
+
+    Solvable emptyCell = new EmptyCell();// given
+
+    // when
+    var solved = emptyCell.solve(1);
+
+    // then
+    assertThat(solved.value()).isEqualTo(1);
+
+  }
+
 }
