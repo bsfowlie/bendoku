@@ -37,4 +37,18 @@ class EmptyCellTest implements WithAssertions {
 
   }
 
+  @Test
+  @DisplayName("should be solvable")
+  void shouldBeSolvable() {
+
+    // given
+    var cell = new EmptyCell();
+
+    // when
+
+    // then
+    assertThat(cell).isInstanceOf(Solvable.class);
+
+  }
+
 }
