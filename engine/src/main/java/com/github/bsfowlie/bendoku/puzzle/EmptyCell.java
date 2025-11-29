@@ -14,4 +14,10 @@ final class EmptyCell extends Cell implements Solvable {
     return null;
   }
 
+  @Override
+  public Cell solve(final int value) {
+
+    return new SolvedCell(1);
+  }
+
 }
