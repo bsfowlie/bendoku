@@ -53,4 +53,19 @@ class SolvedCellTest implements WithAssertions {
 
   }
 
+  @Test
+  @DisplayName("can be cleared")
+  void canBeCleared() {
+
+    // given
+    Clearable solvedCell = new SolvedCell(1);
+
+    // when
+    var cleared = solvedCell.clear();
+
+    // then
+    assertThat(cleared.isSolved()).isFalse();
+
+  }
+
 }
