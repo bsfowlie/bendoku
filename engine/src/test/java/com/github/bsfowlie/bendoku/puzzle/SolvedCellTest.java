@@ -39,4 +39,18 @@ class SolvedCellTest implements WithAssertions {
 
   }
 
+  @Test
+  @DisplayName("should be clearable")
+  void shouldBeClearable() {
+
+    // given
+    var cell = new SolvedCell(1);
+
+    // when
+
+    // then
+    assertThat(cell).isInstanceOf(Clearable.class);
+
+  }
+
 }

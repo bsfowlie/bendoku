@@ -1,6 +1,6 @@
 package com.github.bsfowlie.bendoku.puzzle;
 
-final class SolvedCell extends Cell {
+final class SolvedCell extends Cell implements Clearable {
 
   private final int value;
 
