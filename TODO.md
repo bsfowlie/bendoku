@@ -1,5 +1,4 @@
 ## High Priority
-- [ ] Configure .gitignore for Intellij
 - [ ] Setup Gradle project with Java 25
 - [ ] Setup GitHub Actions to build PRs automatically
 - [ ] Setup Dependabot to update dependencies
@@ -8,3 +7,4 @@
 ## Low Priority
 
 ## Done
+- [x] Configure .gitignore for Intellij
